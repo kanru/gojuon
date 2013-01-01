@@ -1,0 +1,18 @@
+{
+  "version": "1.0",
+  "name": "Gojūon",
+  "description": "Gojūon Flash Card Game",
+  "launch_path": "/gojuon/index.html",
+  "developer": {
+    "name": "Kan-Ru Chen",
+    "url": "https://kanru.github.com/"
+  },
+  "orientation": "portrait-primary",
+  "locales": {
+    "en-US": {
+      "name": "Gojūon",
+      "description": "A flash card game"
+    },
+  },
+  "default_locale": "en-US",
+}
