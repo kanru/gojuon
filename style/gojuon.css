@@ -1,3 +1,20 @@
-#test {
+body {
+    background: white;
+}
+
+.container {
+    margin: auto 0;
+    text-align: center;
+}
+
+#hiragana {
     font-size: calc(320*0.8px);
+}
+
+#roma {
+    font-size: calc(320*0.2px);
+}
+
+.hidden {
+    color: white;
 }
