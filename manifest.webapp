@@ -12,7 +12,7 @@
     "en-US": {
       "name": "Gojūon",
       "description": "A flash card game"
-    },
+    }
   },
   "default_locale": "en-US",
   "icons": {
