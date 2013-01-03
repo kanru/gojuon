@@ -100,6 +100,7 @@ function refresh() {
     var draw = deck[pick()];
     hiragana.innerHTML = draw.hiragana;
     roma.innerHTML = '/'+draw.roma+'/';
+    roma.classList.add("hidden");
 }
 
 function init() {
