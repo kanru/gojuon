@@ -90,7 +90,7 @@ function setupBinding() {
 }
 
 function pick() {
-    return Math.floor(Math.random()*deck.length);
+    return Math.floor(Math.random() * (deck.length+1));
 }
 
 function refresh() {
