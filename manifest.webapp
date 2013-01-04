@@ -1,5 +1,5 @@
 {
-  "version": "1.0",
+  "version": "1.0.1",
   "name": "Gojūon",
   "description": "Gojūon Flash Card Game",
   "launch_path": "/gojuon/index.html",
