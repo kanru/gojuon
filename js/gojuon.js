@@ -74,7 +74,7 @@ function getBack() {
 }
 
 function setupBinding() {
-    var romas = document.getElementsByClassName("roma");
+    var romas = document.getElementsByClassName("roma-touch");
     var onClick = function onClick(e) {
         this.classList.toggle("hidden");
         e.stopPropagation();
@@ -96,11 +96,12 @@ function pick() {
 function refresh() {
     var back = getBack();
     var hiragana = back.getElementsByClassName("hiragana")[0]
-    var roma = back.getElementsByClassName("roma")[0]
+    var roma = back.getElementsByClassName("roma-text")[0]
     var draw = deck[pick()];
     hiragana.innerHTML = draw.hiragana;
     roma.innerHTML = '/'+draw.roma+'/';
-    roma.classList.add("hidden");
+    var romaTouch = back.getElementsByClassName("roma-touch")[0]
+    romaTouch.classList.add("hidden");
 }
 
 function init() {
