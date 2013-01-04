@@ -53,7 +53,7 @@ var deck = [
 
     {hiragana: "わ", roma: "wa"},
     {hiragana: "ゐ", roma: "wi"},
-    {hiragana: "ゑ", roma: "we"},
+    /*{hiragana: "ゑ", roma: "we"},*/
     {hiragana: "を", roma: "wo"},
 
     {hiragana: "ん", roma: "n"}
