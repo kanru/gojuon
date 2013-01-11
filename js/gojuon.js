@@ -59,6 +59,7 @@ var deck = [
     {hiragana: "ん", roma: "n"}
 ];
 var backId = "back";
+var lastPick = undefined;
 
 function swap() {
     if (backId == "back") {
@@ -91,7 +92,13 @@ function setupBinding() {
 }
 
 function pick() {
-    return Math.floor(Math.random() * (deck.length+1));
+    var pick;
+    do {
+      pick = Math.floor(Math.random() * (deck.length+1));
+      console.log(pick);
+    } while (pick == lastPick);
+    lastPick = pick;
+    return pick;
 }
 
 function refresh() {
