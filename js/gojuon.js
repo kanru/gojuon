@@ -76,7 +76,6 @@ function getBack() {
 function setupBinding() {
     var romas = document.getElementsByClassName("roma-touch");
     var onClick = function onClick(e) {
-        this.classList.toggle("hidden");
         e.stopPropagation();
     };
     romas[0].addEventListener("click", onClick);
