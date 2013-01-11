@@ -76,6 +76,7 @@ function getBack() {
 function setupBinding() {
     var romas = document.getElementsByClassName("roma-touch");
     var onClick = function onClick(e) {
+        this.classList.toggle("hidden");
         e.stopPropagation();
     };
     romas[0].addEventListener("click", onClick);
@@ -100,7 +101,6 @@ function refresh() {
     hiragana.innerHTML = draw.hiragana;
     roma.innerHTML = '/'+draw.roma+'/';
     var romaTouch = back.getElementsByClassName("roma-touch")[0]
-    romaTouch.classList.add("hidden");
 }
 
 function init() {
