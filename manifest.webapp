@@ -14,5 +14,8 @@
       "description": "A flash card game"
     }
   },
-  "default_locale": "en-US"
+  "default_locale": "en-US",
+  "icons": {
+    "60": "/gojuon/style/icons/icon_gojuon_60.png"
+  }
 }
