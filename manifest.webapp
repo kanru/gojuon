@@ -16,6 +16,7 @@
   },
   "default_locale": "en-US",
   "icons": {
-    "60": "/gojuon/style/icons/icon_gojuon_60.png"
+    "60": "/gojuon/style/icons/icon_gojuon_60.png",
+    "128": "/gojuon/style/icons/icon_gojuon_128.png"
   }
 }
