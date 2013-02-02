@@ -18,8 +18,8 @@ var deck = [
     {hiragana: "そ", roma: "so"},
 
     {hiragana: "た", roma: "ta"},
-    {hiragana: "ち", roma: "ti"},
-    {hiragana: "つ", roma: "tu"},
+    {hiragana: "ち", roma: "chi"},
+    {hiragana: "つ", roma: "tsu"},
     {hiragana: "て", roma: "te"},
     {hiragana: "と", roma: "to"},
 
